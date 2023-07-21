@@ -1,0 +1,31 @@
+.AboutMeSection {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.allAbout {
+    margin-top: 125px;
+    background-color: var(--background);
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 80px;
+}
+
+.h1About {
+    color: var(--white, #ffffff);
+    font: 800 40px "Inter", sans-serif;
+}
+
+.pA {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font: var(--paragraph, 400 16px/30px "Inter", sans-serif);
+    width: 615px;
+}
+
