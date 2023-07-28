@@ -7,8 +7,6 @@
 @import "./tech.css";
 @import "./projects.css";
 @import "./footer.css";
-@import "./media.css";
-
 
 #root {
     background: var(--background);
