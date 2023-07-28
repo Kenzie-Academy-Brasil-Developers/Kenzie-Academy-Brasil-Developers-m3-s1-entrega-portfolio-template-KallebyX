@@ -10,7 +10,7 @@ const BannerSection = () => {
             <div className="imgBannerBox">
                 <img className="bannerImg" src="src\assets\banner-img.png" alt="" />
             </div> 
-        </div>
+        </div> 
     );
 }
 

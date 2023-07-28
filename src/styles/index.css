@@ -1,12 +1,13 @@
 @import "./reset.css";
 @import "./globalStyle.css";
-@import "./button.css";
+@import "./button.css"; 
 @import "./header.css";
 @import "./banner.css";
 @import "./about.css";
 @import "./tech.css";
 @import "./projects.css";
-@import "./footer.css";
+@import "./footer.css"; 
+@import "./media.css"; 
 
 #root {
     background: var(--background);

@@ -1,57 +1,59 @@
-.allbanner {
-    margin-top: 125px;
-    background-color: var(--background);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+@media (min-width: 768px) {
+    .allbanner {
+        margin-top: 125px;
+        background-color: var(--background);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-.bannerBox {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
-    width: 500px;
-    height: 300px;
-    position: relative;
-}
+    .bannerBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        width: 500px;
+        height: 300px;
+        position: relative;
+    }
 
-.nomeBanner {
-    color: var(--purple, #6880ff);
-    text-align: left;
-    font: 400 15px "Poppins", sans-serif;
-    position: relative;
-}
+    .nomeBanner {
+        color: var(--purple, #6880ff);
+        text-align: left;
+        font: 400 15px "Poppins", sans-serif;
+        position: relative;
+    }
 
-.h1Banner {
-    color: var(--white, #ffffff);
-    text-align: left;
-    font: 800 40px "Inter", sans-serif;
-    position: relative;
-}
+    .h1Banner {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+    }
 
-.pBanner {
-    color: var(--white, #ffffff);
-    text-align: left;
-    font: 400 15px "Poppins", sans-serif;
-    position: relative;
-}
+    .pBanner {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 400 15px "Poppins", sans-serif;
+        position: relative;
+    }
 
-.buttonBanner {
-    background: var(--purple, #6880ff);
-    border-radius: 12px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 1px;
-    width: 130px;
-    height: 39px;
-    position: relative;
-    color: #ffffff;
-    text-align: center;
-    font: 600 14px "Inter", sans-serif;
-    position: relative;
-    margin-top: 40px;
+    .buttonBanner {
+        background: var(--purple, #6880ff);
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 130px;
+        height: 39px;
+        position: relative;
+        color: #ffffff;
+        text-align: center;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        margin-top: 40px;
+    }
 }
