@@ -8,7 +8,7 @@ const BannerSection = () => {
                 <button className="buttonBanner">Saiba mais</button>
                 </div>
             <div className="imgBannerBox">
-                <img className="bannerImg" src="../assets/bannerimg.png" alt="" />
+                <img className="bannerImg" src="src\assets\banner-img.png" alt="" />
             </div> 
         </div> 
     );
