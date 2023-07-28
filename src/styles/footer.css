@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Footer {
     border-style: solid;
     border-color: #ffffff;
@@ -50,4 +51,58 @@
     font: 400 16px "Inter", sans-serif;
     position: relative;
     width: 161px;
+=======
+.Footer {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px 0px 1px 0px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.principal {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 166px;
+    gap: 10px;
+}
+
+
+.h1F {
+    color: #ffffff;
+    text-align: left;
+    font: 800 40px "Inter", sans-serif;
+    position: relative;
+    width: 161px;
+}
+
+.imgs{
+    display: inline-flex;
+    position: relative;
+    width: 86px;
+    height: 22px;
+    justify-content: space-between;
+}
+
+.pBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font: 400 16px "Inter", sans-serif;
+    position: relative;
+    width: 161px;
+}
+
+.pF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font: 400 16px "Inter", sans-serif;
+    position: relative;
+    width: 161px;
+>>>>>>> 2bd1ad2538a22f5858665a981b2fb3ea60ddc65a
 }

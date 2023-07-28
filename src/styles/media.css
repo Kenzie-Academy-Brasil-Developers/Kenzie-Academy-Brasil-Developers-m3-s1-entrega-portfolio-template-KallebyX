@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 1000px) {
     .Header {
         margin-left: 480px;
@@ -788,4 +789,796 @@
     }
     
     
+=======
+@media screen and (max-width: 1000px) {
+    .Header {
+        margin-left: 480px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+        align-items: center;
+        position: relative;
+    }
+    
+    .imgbox {
+        width: 70.697px;
+        height: 13.872px;
+    }
+    
+    .imgone {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    
+    .tButtons {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-shrink: 0;
+        width: 256px;
+        height: 17px;
+        position: static;
+    }
+    
+    .sobre {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        background-color: var(--background);
+        border: none;
+    }
+    
+    .stack {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        background-color: var(--background);
+        border: none;
+    }
+    
+    .projetos {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        background-color: var(--background);
+        border: none;
+    }
+    
+    .finalButton {
+        background: var(--purple, #6880ff);
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 130px;
+        height: 39px;
+        position: relative;
+        color: #ffffff;
+        text-align: center;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+    }.AboutMeSection {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .allAbout {
+        margin-top: 125px;
+        background-color: var(--background);
+        color: white;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 80px;
+    }
+    
+    .h1About {
+        color: var(--white, #ffffff);
+        font: 800 40px "Inter", sans-serif;
+    }
+    
+    .pA {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: var(--paragraph, 400 16px/30px "Inter", sans-serif);
+        width: 615px;
+    }
+    .allbanner {
+        margin-top: 125px;
+        background-color: var(--background);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bannerBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        width: 500px;
+        height: 300px;
+        position: relative;
+    }
+    
+    .nomeBanner {
+        color: var(--purple, #6880ff);
+        text-align: left;
+        font: 400 15px "Poppins", sans-serif;
+        position: relative;
+    }
+    
+    .h1Banner {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+    }
+    
+    .pBanner {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 400 15px "Poppins", sans-serif;
+        position: relative;
+    }
+    
+    .buttonBanner {
+        background: var(--purple, #6880ff);
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 130px;
+        height: 39px;
+        position: relative;
+        color: #ffffff;
+        text-align: center;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        margin-top: 40px;
+    }.Footer {
+        border-style: solid;
+        border-color: #ffffff;
+        border-width: 1px 0px 1px 0px;
+        margin-bottom: 10px;
+        margin-top: 80px;
+    }
+    
+    .principal {
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 166px;
+        gap: 10px;
+    }
+    
+    
+    .h1F {
+        color: #ffffff;
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+        width: 161px;
+    }
+    
+    .imgs{
+        display: inline-flex;
+        position: relative;
+        width: 86px;
+        height: 22px;
+        justify-content: space-between;
+    }
+    
+    .pBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font: 400 16px "Inter", sans-serif;
+        position: relative;
+        width: 161px;
+    }
+    
+    .pF {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font: 400 16px "Inter", sans-serif;
+        position: relative;
+        width: 161px;
+    }.ProjectSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background);
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    
+    .h1Box {
+        display: flex;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 60px;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .h1projects {
+        display: flex;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 60px;
+        font-family: "Inter", sans-serif;
+        margin-left: 150px;
+        margin-top: -150px;
+    }
+    
+    
+    .allProjects {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        margin-top: 300px;
+        width: 100%;
+        max-width: 1200px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ulProducts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 15px;
+    }
+    
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+        list-style: none;
+    }
+    
+    .liProducts {
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 439px;
+        height: 183px;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    
+    .aP {
+        padding-left: 15px;
+    }
+    
+    .h3Products,
+    .pProducts {
+        color: #ffffff;
+        text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: "Inter", sans-serif;
+        width: 173px;
+    }
+    
+    .pB {
+        display: grid;
+    }
+    
+    .h3Img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 190px;
+        align-items: center;
+    }
+    
+    .imgProducts {
+        display: flex;
+        width: 37px;
+        height: 38px;
+    }
+    
+    .buttonProducts {
+        width: 173px;
+        height: 48px;
+        background-color: var(--background);
+        color: #6880ff;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: left;
+        line-height: 30px;
+        font-family: "Inter", sans-serif;
+    }
+    .TechSection {
+        margin-top: 125px;
+        margin-left: -25px;
+        background-color: var(--background);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ul {
+        margin-top: 30px;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .techH1 {
+        display: flex;
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+    }
+    
+    .allTech {
+        justify-content: center;
+        
+        width: 896px;
+        height: 187px;
+    }
+    
+    .imgUl {
+        display: flex;
+        width: 28px;
+        height: 37px;
+    }
+    
+    .techUl {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        display: flex;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.5);
+        border-width: 1px;
+        width: 287px;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 86px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 401px) {
+    .Header {
+        margin-left: 480px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+        align-items: center;
+        position: relative;
+    }
+    
+    .imgbox {
+        width: 70.697px;
+        height: 13.872px;
+    }
+    
+    .imgone {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    
+    .tButtons {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-shrink: 0;
+        width: 256px;
+        height: 17px;
+        position: static;
+    }
+    
+    .sobre {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        background-color: var(--background);
+        border: none;
+    }
+    
+    .stack {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        background-color: var(--background);
+        border: none;
+    }
+    
+    .projetos {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        background-color: var(--background);
+        border: none;
+    }
+    
+    .finalButton {
+        background: var(--purple, #6880ff);
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 130px;
+        height: 39px;
+        position: relative;
+        color: #ffffff;
+        text-align: center;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+    }.AboutMeSection {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .allAbout {
+        margin-top: 125px;
+        background-color: var(--background);
+        color: white;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 80px;
+    }
+    
+    .h1About {
+        color: var(--white, #ffffff);
+        font: 800 40px "Inter", sans-serif;
+    }
+    
+    .pA {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: var(--paragraph, 400 16px/30px "Inter", sans-serif);
+        width: 615px;
+    }
+    .allbanner {
+        margin-top: 125px;
+        background-color: var(--background);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bannerBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        width: 500px;
+        height: 300px;
+        position: relative;
+    }
+    
+    .nomeBanner {
+        color: var(--purple, #6880ff);
+        text-align: left;
+        font: 400 15px "Poppins", sans-serif;
+        position: relative;
+    }
+    
+    .h1Banner {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+    }
+    
+    .pBanner {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 400 15px "Poppins", sans-serif;
+        position: relative;
+    }
+    
+    .buttonBanner {
+        background: var(--purple, #6880ff);
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 130px;
+        height: 39px;
+        position: relative;
+        color: #ffffff;
+        text-align: center;
+        font: 600 14px "Inter", sans-serif;
+        position: relative;
+        margin-top: 40px;
+    }.Footer {
+        border-style: solid;
+        border-color: #ffffff;
+        border-width: 1px 0px 1px 0px;
+        margin-bottom: 10px;
+        margin-top: 80px;
+    }
+    
+    .principal {
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 166px;
+        gap: 10px;
+    }
+    
+    
+    .h1F {
+        color: #ffffff;
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+        width: 161px;
+    }
+    
+    .imgs{
+        display: inline-flex;
+        position: relative;
+        width: 86px;
+        height: 22px;
+        justify-content: space-between;
+    }
+    
+    .pBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font: 400 16px "Inter", sans-serif;
+        position: relative;
+        width: 161px;
+    }
+    
+    .pF {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font: 400 16px "Inter", sans-serif;
+        position: relative;
+        width: 161px;
+    }.ProjectSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background);
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    
+    .h1Box {
+        display: flex;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 60px;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .h1projects {
+        display: flex;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 60px;
+        font-family: "Inter", sans-serif;
+        margin-left: 150px;
+        margin-top: -150px;
+    }
+    
+    
+    .allProjects {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        margin-top: 300px;
+        width: 100%;
+        max-width: 1200px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ulProducts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 15px;
+    }
+    
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+        list-style: none;
+    }
+    
+    .liProducts {
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 439px;
+        height: 183px;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    
+    .aP {
+        padding-left: 15px;
+    }
+    
+    .h3Products,
+    .pProducts {
+        color: #ffffff;
+        text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: "Inter", sans-serif;
+        width: 173px;
+    }
+    
+    .pB {
+        display: grid;
+    }
+    
+    .h3Img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 190px;
+        align-items: center;
+    }
+    
+    .imgProducts {
+        display: flex;
+        width: 37px;
+        height: 38px;
+    }
+    
+    .buttonProducts {
+        width: 173px;
+        height: 48px;
+        background-color: var(--background);
+        color: #6880ff;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: left;
+        line-height: 30px;
+        font-family: "Inter", sans-serif;
+    }
+    .TechSection {
+        margin-top: 125px;
+        margin-left: -25px;
+        background-color: var(--background);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ul {
+        margin-top: 30px;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .techH1 {
+        display: flex;
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 800 40px "Inter", sans-serif;
+        position: relative;
+    }
+    
+    .allTech {
+        justify-content: center;
+        
+        width: 896px;
+        height: 187px;
+    }
+    
+    .imgUl {
+        display: flex;
+        width: 28px;
+        height: 37px;
+    }
+    
+    .techUl {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        display: flex;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.5);
+        border-width: 1px;
+        width: 287px;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 86px;
+    }
+    
+    
+>>>>>>> 2bd1ad2538a22f5858665a981b2fb3ea60ddc65a
 }

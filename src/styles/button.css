@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .btn{
     display: inline-flex;
     align-items: center;
@@ -18,4 +19,26 @@
 
     background: var(--color-black);
     color: var(--color-white);
+=======
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: .6rem;
+
+    padding: 0 1.875rem;
+    height: 3.75rem;
+
+    font-family: var(--font-secondary);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2.16px;
+
+    text-transform: uppercase;
+
+    background: var(--color-black);
+    color: var(--color-white);
+>>>>>>> 2bd1ad2538a22f5858665a981b2fb3ea60ddc65a
 }
