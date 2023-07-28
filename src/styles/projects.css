@@ -5,12 +5,17 @@
         align-items: center;
         justify-content: center;
         background-color: var(--background);
-        width: 100%;
-        height: 100%;
+        width: 896px;
+        height: 462px;
+        flex-shrink: 0;
         padding-top: 50px;
+        margin-left: 540px;
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
 
     .h1Box {
+        margin-left: 100px;
         display: flex;
         color: #ffffff;
         font-weight: 800;
@@ -26,7 +31,6 @@
         font-size: 40px;
         line-height: 60px;
         font-family: "Inter", sans-serif;
-        margin-left: 150px;
         margin-top: -150px;
     }
 
@@ -49,6 +53,8 @@
         align-items: center;
         list-style: none;
         gap: 15px;
+        width: 1200px;
+        height: 385px;
     }
 
     .all {
@@ -64,8 +70,9 @@
         flex-direction: column;
         border-radius: 25px;
         border: 1px solid rgba(255, 255, 255, 0.5);
-        width: 439px;
+        width: 500px;
         height: 183px;
+        flex-shrink: 0;
         align-content: center;
         justify-content: space-evenly;
         align-items: start;
@@ -88,13 +95,15 @@
 
     .pB {
         display: grid;
+        margin-top: 25px;
     }
 
     .h3Img {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        gap: 190px;
+        gap: 250px;
+        margin-top: 20px;
         align-items: center;
     }
 
@@ -105,6 +114,7 @@
     }
 
     .buttonProducts {
+        margin-top: 10px;
         width: 173px;
         height: 48px;
         background-color: var(--background);

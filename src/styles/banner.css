@@ -1,23 +1,34 @@
 @media (min-width: 768px) {
     .allbanner {
-        margin-top: 125px;
+        margin-top: 154px;
         background-color: var(--background);
         color: white;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        width: 882.724px;
+        height: 277.099px;
+        flex-shrink: 0;
+        gap: 124.93px;
+        margin-left: 417px;
+        margin-right: 285.28px;
     }
 
     .bannerBox {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
+        width: 320px;
+        height: 277px;
+        flex-shrink: 0;
+        margin-left: 272px;
+        display: grid;
         gap: 20px;
-        width: 500px;
-        height: 300px;
-        position: relative;
+    }
+
+    .bannerImg {
+        width: 437.792px;
+        height: 265.656px;
+        flex-shrink: 0;
+        margin-left: 124px;
     }
 
     .nomeBanner {

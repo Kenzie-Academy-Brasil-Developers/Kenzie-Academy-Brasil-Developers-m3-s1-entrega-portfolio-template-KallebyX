@@ -1,21 +1,16 @@
 @media (min-width: 768px) {
     .AboutMeSection {
-        display: flex;
-        color: white;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
+        width: 1006px;
+        height: 150px;
+        flex-shrink: 0;
+        margin-left: 480px;
+        margin-top: 150px;
     }
 
     .allAbout {
-        margin-top: 125px;
-        background-color: var(--background);
-        color: white;
-        display: inline-flex;
-        flex-direction: row;
-        align-items: start;
+        display: flex;
+        gap: 150px;
         justify-content: center;
-        gap: 80px;
     }
 
     .h1About {
@@ -24,6 +19,9 @@
     }
 
     .pA {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color: var(--white, #ffffff);
         text-align: left;
         font: var(--paragraph, 400 16px/30px "Inter", sans-serif);
